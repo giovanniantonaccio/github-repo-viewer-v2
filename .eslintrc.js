@@ -37,6 +37,12 @@ module.exports = {
         tsx: 'never',
       },
     ],
+    '@typescript-eslint/explicit-function-return-type': [
+      'error',
+      {
+        allowExpressions: true,
+      },
+    ],
   },
   settings: {
     'import/resolver': {
